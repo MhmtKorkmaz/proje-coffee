@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+.myFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caffee-header-content{
+    display: block;
+    justify-content: start;
+    align-items: center;
+}
+.caffee-header{
+    width: 100%;
+    height: 100vh;
+    background: url(img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.caffee-header .navbar-nav a{
+    color: #fff;
+}
+.footer{
+    display: flex;
+    height: 100vh;
+    background: url(img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.banner-text{
+    color: white;
+    justify-content: start;
+    align-items: center;
+    margin-top: 150px !important;
+    position: relative;
+    margin-left: 70px;
+    margin-right: 15px;
+}
+.banner-text .btn{
+    background-color: white;
+    border-radius: 25px;
+    border-width: 0 20px;
+}
+.banner-text h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+/*********** video-text*********/
+
+.video-left{
+    height: 360px;
+    border-radius: 10px;
+    background: url(img/video-bg.webp);
+    background-position: center;
+    background-size: cover;
+}
+.live-cofe-bg{
+    position: absolute;    
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.78);
+}
+.video-left{
+    margin-right: 50px;
+}
+.video-right{
+    padding: 30px;
+}
+.video-right h6 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #b68834;
+    font-size: 12px;
+    font-weight: 300;
+}
+.video-right h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+.video-right p span{
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+/************** price-card**********/
+
+
+.price-card{
+    background: url(img/price-menu-bg.jpg);
+    background-size: cover;
+}
+.price-menu-main{
+    padding: 80px;
+}
+.price-menü{
+    box-shadow: 0px 10px 30px 0px rgb(182 136 52 / 20%);
+    background-color: #fff;
+    border-radius: 18px;
+    padding: 40px 30px;
+    margin-bottom: 25px;
+    display: block;
+}
+.price-menü-body p{
+    color: #b68834;
+    font-size: 18px;
+    font-weight: bold;
+}
+.menü-title-price{
+    justify-content: space-between;
+}
+.price-menü-body{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+.menü-title{
+    font-weight: bold;
+}
+
+/***********Resim Blokları **************/
+
+.card-unit{
+    padding: 120px 0px;
+}
+.image-flex-left{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    
+}
+.image-flex-left img{
+    margin: 15px;
+}
+.image-flex-right{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.image-flex-right img{
+    margin: 15px;
+}
+.image-blog-unit{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.image-flex img{
+    border-radius: 10px;
+}
+
+
+/*************** caffee-server***********/
+
+.cafe-server{
+    background: #b68834;
+}
+.cafe-server p{
+    color: #fff;
+}
+.cafe-server h1, h5, .bi-1{
+    color: #fff;
+    font-weight: lighter;
+}
+.bi{
+    color: #523603;
+}
+.server-menü-title{
+    padding: 50px;
+}
+.server-menü-title img{
+    margin-bottom: 15px;
+}
+.alt-rakam-grup{
+    margin-top: 10px;
+}
+.end-point-1{
+    margin-left: 200px;
+}
+.lorem-title{
+    margin-right: 30px;
+}
+.server-title{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+/**************blog-area**********/
+
+.blog-area{
+    padding: 20px;
+}
+.image-collage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:55px;
+}
+.button-group-area{
+    margin-left: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.button-group-area .btn{
+    border-radius: 20px;
+    padding: 4px 20px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.button-group-area:hover .btn:hover{
+    background-color: #b68834;
+    color: #fff;
+    transition: all 0.3s;
+}
+.single-blog-2{
+    margin-left: 25px;
+}
+.card{
+    border-style: none !important;
+}
+
+/*************** Footer-area *******************/
+
+.footer-area{
+    background: url(img/footer-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    padding: 170px;
+}
+.footer-area p, a{
+    color: #fff;
+    font-weight: lighter;
+}
+.single-foot-area{
+    padding: 20px;
+}
+.footer-icon-grup i{
+    color: #fff;
+    margin-right: 12px;
+}
+.input-group .btn{
+    background-color: #b68834;
+}
+.input-group i{
+    color: #fff;
+    font-size: 20px;
+}
